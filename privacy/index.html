@@ -1,112 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PsychologApp - Polityka prywatności</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Polityka prywatności aplikacji Psycholog na iOS: dane lokalne, kopie systemowe, modele i eksport.">
+  <title>Psycholog — polityka prywatności</title>
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      max-width: 760px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #222;
-    }
-
-    h1, h2 {
-      color: #111;
-    }
-
-    a {
-      color: #007aff;
-    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { max-width: 880px; margin: 0 auto; padding: 32px 24px 56px; font: 17px/1.65 system-ui, sans-serif; color: #17212b; background: #fff; overflow-wrap: anywhere; }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: 2rem; margin: 24px 0 16px; }
+    h2 { font-size: 1.45rem; margin-top: 44px; padding-top: 12px; border-top: 1px solid #d9e1e8; scroll-margin-top: 16px; }
+    h3 { font-size: 1.12rem; margin-top: 28px; }
+    p { margin: 14px 0; }
+    li { margin: 9px 0; }
+    ul, ol { padding-left: 26px; }
+    a { color: #075cae; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid #075cae; outline-offset: 4px; }
+    nav { padding: 16px 20px; background: #f1f5f8; border: 1px solid #d9e1e8; border-radius: 12px; }
+    nav ol { margin: 8px 0; }
+    nav li { margin: 5px 0; }
+    .table-wrap { overflow-x: auto; margin: 20px 0; }
+    table { border-collapse: collapse; width: 100%; min-width: 570px; font-size: .95rem; }
+    th, td { border: 1px solid #c7d2dd; padding: 12px; text-align: left; vertical-align: top; }
+    th { background: #f1f5f8; }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #d9e1e8; }
+    @media (max-width: 520px) { body { padding: 20px 18px 40px; } h1 { font-size: 1.65rem; } h2 { font-size: 1.3rem; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print { body { max-width: none; font-size: 11pt; } nav { display: none; } h2, h3 { break-after: avoid; } .table-wrap { overflow: visible; } table { min-width: 0; } }
   </style>
 </head>
-
 <body>
-
-  <h1>Polityka prywatności PsychologApp</h1>
-
-  <p>Ostatnia aktualizacja: 15 września 2026 r.</p>
-
-  <h2>1. Zakres działania aplikacji</h2>
-
-  <p>
-    PsychologApp umożliwia nagrywanie sesji, tworzenie transkrypcji,
-    porządkowanie historii spotkań oraz rozdzielanie rozmówców.
-  </p>
-
-  <h2>2. Mikrofon i nagrania</h2>
-
-  <p>
-    Aplikacja korzysta z mikrofonu wyłącznie po uzyskaniu zgody użytkownika
-    systemu i po rozpoczęciu nagrania przez użytkownika.
-  </p>
-
-  <p>
-    Przed rozpoczęciem nagrywania aplikacja umożliwia potwierdzenie,
-    że uzyskano zgodę osoby nagrywanej.
-  </p>
-
-  <h2>3. Dane przechowywane w aplikacji</h2>
-
-  <p>
-    Aplikacja może przechowywać nagrania audio, transkrypcje,
-    informacje o sesjach, nazwy przypisane przez użytkownika oraz wzorce głosu.
-  </p>
-
-  <p>
-    Nagrania, dane pacjentów, transkrypcje i wyniki przetwarzania
-    są przechowywane lokalnie na urządzeniu.
-  </p>
-
-  <h2>4. Przetwarzanie danych</h2>
-
-  <p>
-    Transkrypcja oraz rozdzielanie rozmówców odbywają się lokalnie
-    na urządzeniu. Nagrania audio nie są wysyłane na serwery twórcy aplikacji.
-  </p>
-
-  <p>
-    Pierwsze użycie wybranych funkcji może wymagać połączenia z internetem
-    w celu pobrania modelu potrzebnego do dalszego przetwarzania lokalnego.
-  </p>
-
-  <h2>5. Dane osobowe</h2>
-
-  <p>
-    Użytkownik odpowiada za treści wprowadzane i nagrywane w aplikacji
-    oraz za uzyskanie wymaganych zgód osób, których dane dotyczą.
-  </p>
-
-  <h2>6. Udostępnianie danych</h2>
-
-  <p>
-    Dane użytkownika nie są sprzedawane reklamodawcom.
-  </p>
-
-  <h2>7. Usuwanie danych</h2>
-
-  <p>
-    Użytkownik może usuwać zapisane sesje, nagrania, transkrypcje
-    oraz inne dane za pomocą funkcji dostępnych w aplikacji.
-  </p>
-
-  <h2>8. Kontakt</h2>
-
-  <p>
-    W sprawach dotyczących prywatności lub działania aplikacji
-    można skontaktować się pod adresem:
-  </p>
-
-  <p>
-    <a href="mailto:elsik@elsik.pl">elsik@elsik.pl</a>
-  </p>
-
-  <p>
-    <a href="../">Powrót do strony pomocy</a>
-  </p>
-
+<main>
+  <h1 id="polityka-prywatnosci-aplikacji-psycholog">Polityka prywatności aplikacji Psycholog</h1>
+  <p>Data obowiązywania: 9 września 2026 r.</p>
+  <p>Opis techniczny uzupełniono 16 listopada 2026 r. na podstawie kodu wersji iOS 1.0 (3).</p>
+  <h2 id="1-administrator-i-kontakt">1. Administrator i kontakt</h2>
+  <p>Administratorem aplikacji Psycholog jest Krzysztof Słodkowski. Kontakt w sprawach prywatności: elsik@elsik.pl.</p>
+  <h2 id="2-dane-przetwarzane-przez-aplikacje">2. Dane przetwarzane przez aplikację</h2>
+  <p>Aplikacja może przechowywać na urządzeniu użytkownika:</p>
+  <ul><li>dane profilu użytkownika;</li><li>dane i identyfikatory pacjentów wprowadzone przez użytkownika;</li><li>nagrania dźwiękowe;</li><li>informacje o sesjach;</li><li>transkrypcje i ręczne poprawki;</li><li>lokalne wzorce głosu wykorzystywane do wspomagania identyfikacji rozmówców;</li><li>ustawienia aplikacji.</li></ul>
+  <h2 id="3-sposob-przechowywania">3. Sposób przechowywania</h2>
+  <p>Dane robocze są przechowywane w prywatnej przestrzeni aplikacji na urządzeniu. Funkcje nagrywania i analizy nie przesyłają nagrań, transkrypcji, kartoteki ani wzorców głosu na serwer administratora ani do usługi analizy w chmurze. Nagrania i informacje o sesjach znajdują się w lokalnym katalogu nagrań, transkrypcje w osobnym katalogu, kartoteka w lokalnym pliku, a profil, ustawienia i wzorce głosu w lokalnych preferencjach.</p>
+  <p>Aplikacja nie ma własnej synchronizacji danych ani automatycznej kopii na serwerze administratora. Kod oznacza katalogi nagrań i transkrypcji do wyłączenia z systemowego backupu, lecz nie wyłącza w ten sposób kartoteki i preferencji, w tym wzorców głosu. Te dane mogą być objęte kopią urządzenia, również w iCloud, zależnie od ustawień systemu. Nie można zatem zagwarantować, że wszystkie dane pozostają poza chmurą.</p>
+  <p>Użytkownik może samodzielnie wyeksportować lub udostępnić dane za pomocą systemowych funkcji iOS. Eksport obejmuje także zapisane wzorce głosu i nie jest szyfrowany przez aplikację. Przygotowany plik powstaje w katalogu tymczasowym; zamknięcie okna udostępniania nie usuwa go automatycznie. Wybór chmury, poczty lub aplikacji zewnętrznej może spowodować przesłanie plików poza urządzenie. Od chwili eksportu użytkownik odpowiada za miejsce przechowywania i sposób przekazania plików.</p>
+  <h2 id="4-uprawnienia">4. Uprawnienia</h2>
+  <p>Aplikacja prosi o dostęp do mikrofonu w celu nagrywania sesji i próbek głosu. Opcjonalna blokada korzysta z Face ID, Touch ID lub kodu urządzenia, zależnie od sprzętu i konfiguracji. Import i eksport korzystają z systemowego wyboru plików i arkusza udostępniania. Aktualna ścieżka transkrypcji FluidAudio nie prosi o zgodę na systemową usługę rozpoznawania mowy Apple.</p>
+  <h2 id="5-modele-lokalne">5. Modele lokalne</h2>
+  <p>Pierwsza transkrypcja bez wcześniej przygotowanych zasobów wymaga Internetu i pobrania modeli Parakeet TDT 0.6B v3 INT8. Rozdzielanie rozmówców i tworzenie wzorców głosu przygotowują osobne zestawy. Modele pobierane są z Hugging Face (repozytoria FluidInference). Żądania pobrania nie zawierają nagrań, transkrypcji, kartoteki ani wzorców głosu; serwer otrzymuje dane techniczne połączenia, np. adres IP. Po pobraniu i przygotowaniu wymaganych modeli analiza może działać offline. Brakujące lub uszkodzone zasoby mogą wymagać ponownego pobrania.</p>
+  <p>Aplikacja korzysta też z App Store w celu pobierania informacji o produkcie, obsługi zakupu i przywracania uprawnień. Kod odświeża licencję przy uruchomieniu i powrocie aplikacji na pierwszy plan. Nie dołącza do tych operacji danych sesji ani pacjentów.</p>
+  <p>Wzorzec głosu jest liczbowym opisem cech głosu, zapisanym wraz z nazwą i datą. Służy do wspomagania przypisania wypowiedzi do rozmówcy, nie do odblokowywania aplikacji. Po analizie aplikacja zleca usunięcie tymczasowej próbki nagranej do utworzenia wzorca; przy awarii lub błędzie usuwania plik może pozostać w pamięci tymczasowej; przy tworzeniu wzorca z fragmentu sesji źródłowe nagranie sesji pozostaje zapisane. Zapis wzorca pacjenta wymaga osobnego potwierdzenia zgody.</p>
+  <h2 id="6-zgoda-na-nagrywanie">6. Zgoda na nagrywanie</h2>
+  <p>Użytkownik jest odpowiedzialny za poinformowanie nagrywanych osób, uzyskanie wymaganych zgód i korzystanie z aplikacji zgodnie z prawem oraz zasadami wykonywanego zawodu.</p>
+  <h2 id="7-usuwanie-danych">7. Usuwanie danych</h2>
+  <p>Sesje, nagrania, transkrypcje, dane pacjentów i wzorce głosu można usuwać w aplikacji. Usunięcie sesji z jej szczegółów usuwa jej transkrypcję. Automatyczne usuwanie i zbiorcze usunięcie nagrań w ustawieniach usuwają sesje i audio, lecz nie usuwają plików transkrypcji, kartoteki ani wzorców głosu. Archiwizacja pacjenta nie oznacza usunięcia danych. Instrukcja opisuje oddzielne zarządzanie tymi danymi. Usunięcie aplikacji usuwa jej lokalne dane robocze; nie usuwa wcześniejszych eksportów ani istniejących kopii poza aplikacją.</p>
+  <h2 id="8-bezpieczenstwo-i-ograniczenia">8. Bezpieczeństwo i ograniczenia</h2>
+  <p>Opcjonalna blokada aplikacji jest domyślnie wyłączona. Audio, transkrypcje i kartoteka korzystają z systemowej ochrony plików iOS; aplikacja nie dodaje własnego szyfrowania hasłem do całego zbioru danych. Profil i wzorce głosu są w lokalnych preferencjach. Blokada ekranu aplikacji nie chroni wyeksportowanych plików. Użytkownik powinien chronić urządzenie, kopie systemowe i eksporty. Automatyczna transkrypcja, rozdzielanie rozmówców i dopasowanie wzorców głosu mogą zawierać błędy i wymagają weryfikacji.</p>
+  <p>Po awarii aplikacja próbuje odzyskać czytelne fragmenty niedokończonego nagrania. Nie gwarantuje odzyskania całej rozmowy ani maksymalnej długości utraconego fragmentu.</p>
+  <h2 id="9-dzieci">9. Dzieci</h2>
+  <p>Aplikacja nie jest kierowana bezpośrednio do dzieci. Jeżeli dotyczy danych osoby małoletniej, użytkownik odpowiada za posiadanie właściwej podstawy prawnej i wymaganych zgód.</p>
+  <h2 id="10-zmiany-polityki">10. Zmiany polityki</h2>
+  <p>Polityka może być aktualizowana wraz ze zmianami funkcji aplikacji. Aktualna wersja będzie dostępna pod adresem wskazanym na stronie produktu w App Store.</p>
+  <p><a href="../support.html">Instrukcja przed pierwszą sesją</a>.</p>
+</main>
 </body>
 </html>
